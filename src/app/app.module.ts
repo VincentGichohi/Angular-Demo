@@ -8,7 +8,7 @@ import { ServersComponent } from './servers/servers.component';
     AppComponent,
   //registering the component from server.component.ts
     ServerComponent,
-  ServersComponent
+    ServersComponent
   ],
   imports: [
     BrowserModule
