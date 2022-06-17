@@ -3,7 +3,10 @@ import  { Component } from "@angular/core"
 //A component selector
 @Component({
     selector: "app-server",
-    templateUrl: "./server.component.html"
+    templateUrl: "./server.component.html",
+    styles: [`
+        color: white;
+    `]
 })    
 export class ServerComponent {
     serverId: number = 10;
